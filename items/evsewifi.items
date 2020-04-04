@@ -1,0 +1,5 @@
+Group wallbox           "Wallox" <energy>
+
+String evse_maxCurrent    "Max [%s A]"    <energy> (wallbox) {channel="exec:command:evse_max_current:output"}
+String evse_actualCurrent "actual [%s A]" <energy> (wallbox) {channel="exec:command:evse_actual_current:output"}
+String evse_setCurrent    "[%s]"          <energy> (wallbox) {channel="exec:command:evse_set_current:input"}

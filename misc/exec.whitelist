@@ -1,0 +1,6 @@
+/usr/bin/python /etc/openhab2/scripts/sma.py etoday
+/usr/bin/python /etc/openhab2/scripts/sma.py Temperature
+/usr/bin/python /etc/openhab2/scripts/sma.py TotalPac
+/usr/bin/python /etc/openhab2/scripts/evserequest.py evse_max_current
+/usr/bin/python /etc/openhab2/scripts/evserequest.py actualCurrent
+/usr/bin/python /etc/openhab2/scripts/evserequest.py setCurrent %2$s

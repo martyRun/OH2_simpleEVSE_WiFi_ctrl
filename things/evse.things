@@ -1,0 +1,4 @@
+Thing exec:command:evse_max_current      [ command="/usr/bin/python /etc/openhab2/scripts/evserequest.py maxCurrent", interval=300, autorun=false ]  
+Thing exec:command:evse_actual_current   [ command="/usr/bin/python /etc/openhab2/scripts/evserequest.py actualCurrent", interval=300, autorun=false ] 
+Thing exec:command:evse_set_current      [ command="/usr/bin/python /etc/openhab2/scripts/evserequest.py setCurrent %2$s", interval=0, autorun=true ]   
+
