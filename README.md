@@ -1,1 +1,1 @@
-# OH2_simple_WiFi_ctrl
+# OH2_simpleEVSE_WiFi_ctrl
